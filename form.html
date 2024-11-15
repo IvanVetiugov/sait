@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="mobile.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RobotBot Регистрация</title>
+</head>
+<body>
+    <form class="register container">
+        <div class="register-top">
+            <a href="/" class="register-link">&lt;</a>
+            <h1>Заявка на вступление</h1>
+        </div>
+        <div class="register-middle">
+            <fieldset>
+                <legend >Ваш никнейм в реальной жизни :)</legend>
+                <div>
+                    <input type="text" class="name" placeholder="Имя" name="name">   
+                                 
+                </div>
+                <div>
+                    <input type="text" class="familia" placeholder="Фамилия" name="surname">                
+                </div>
+                
+            </fieldset>
+        </div>
+        <div class="register-opros">
+            <p class="register-p">Ваш пол</p>
+            <input type="radio" class="opros-input" name="Пол">
+            <label for="" class="opros-label">М</label>
+            <input type="radio" class="opros-input" name="Пол">
+            <label for="" class="opros-label" >Ж</label>
+            
+            
+        </div>
+        <div class="opros-chekbox">
+            <input type="checkbox" class="opros-chekbox" name="age">
+            <label for=""class="opros">Мне есть 18</label>
+        </div>
+        <div class="opros-choose">
+            <label for="">Ваша дисциплина</label>
+            <select id="" class="opros-select" name="dis">
+                <option value="CS2">CS 2</option>
+                <option value="Dota">Dota</option>
+                <option value="Apex">Apex</option>
+            </select>
+        </div>
+        <div сlass="opros-dop-info">
+            <textarea class="opros-text" rows="5" placeholder="Дополнительная информация" name="tell"></textarea>
+        </div>
+        <div class="opros-button">
+            <button class="button-bottom" type="submit">Отправить заявку</button>
+        </div>
+    </form>
+</body>
+</html>

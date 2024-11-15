@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    
+}
+.global-h{
+    color: #65daff;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+body{
+    background-color: #222222;
+}
+.container{
+    max-width: 850px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.a-top{
+    color: white;
+    text-decoration: none;
+
+    margin-right: 20px;
+}
+.nav{
+    background-color: #222222;
+}
+.nav-links{
+    float: right;
+    margin-top: 5px;
+}
+.nav-logo{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    
+}
+.a-top:hover{
+    color: #79fccc;
+    transition: 1s;
+}
+.header{
+    width: 100%;
+    background-image: url("img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 600px; 
+    padding-top: 50px;
+    padding-bottom: 500px;
+}
+.header-text{
+    margin-left: 100px;
+    color: #4e4e4e;
+    text-align: left;
+    margin-top: 50px;
+}
+.header-text-1{
+    font-size: 70px;
+}
+.header-text-2{
+    margin-top: 25px;
+    font-size: 30px;
+}
+.header-a{
+    background-image: linear-gradient(270deg,#79fccc,#65dafe);
+    text-decoration: none;
+    padding: 30px 50px 30px 50px;
+    border-radius: 5px;
+    margin-top: 25px;
+    display: inline-block;
+    color: white;
+}
+.info{
+    background-color: #222222;
+    color: #65dafe;
+    text-align: center;
+}
+.info-div{
+    display: inline-block;
+    margin-top: 100px;
+    margin-right: 50px;
+    font-size: 20px;
+    
+    vertical-align: top;
+    
+}
+.info-img{
+    width: 100%;
+    max-width: 250px;
+
+}
+.games{
+    color: white;
+    box-shadow: black 0px 15px 25px;
+}
+.games-img{
+    max-width: 50%;
+    display: inline-block;
+}
+
+.games-text{
+    display: inline-block;
+    max-width: 49%;
+    vertical-align: top;
+    padding: 5px;
+}
+.games-h3{
+    color: #79fccc;
+}
+.games-hr{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #79fccc;
+    max-height: 3px;
+    max-width: 150px;
+}
+.bottom-info{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.div-bottom{
+    color: white;
+    background-color: #65d2db;
+    margin-top: 50px;
+    padding: 50px;
+}
+.button-bottom{
+    margin:0px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
+.h2-bottom{
+    display: inline-block;
+    margin-right: 400px;
+}
+.bottom{
+    box-shadow: 0px 10px 10px;
+    margin-bottom: 100px;
+}

@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #222222;
+
+}
+.container{
+    max-width: 850px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.register{
+    box-shadow: 0px 10px 10px;
+    
+}
+.register-top{
+    height: 50px;
+    background-color: #65daff;
+    margin-bottom: 20px;
+    position: relative;
+}
+.register-text-input{
+    background-color: rgb(121, 121, 121);
+}
+.register-link{
+    display: inline-block;
+    background-color: rgb(248, 248, 248);
+    color: black;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    text-decoration: none;
+    line-height: 50px;
+    text-align: center;
+}
+legend{
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.name{
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    margin-bottom: 10px;
+}
+.familia{
+    background-color: transparent;
+    border:none;
+    color: white;
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding: 10px;
+}
+fieldset{
+    padding: 25px;
+}
+h1{
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.register-p{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.opros-chekbox{
+    color: white;
+    margin-bottom: 25px;
+}
+.opros{
+    color: white;
+}
+.opros-label{
+    color: white;
+
+    margin-right: 10px;
+}
+.opros-input{
+    margin-bottom: 25px;
+    margin-right: 10px;
+}
+.opros-text{
+    background-color: transparent;
+    border-color: white;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+}
+.opros-choose{
+    color: white;
+    
+    margin-bottom: 25px;
+}
+.button-bottom{
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: linear-gradient(270deg,#79fccc,#65dafe);
+}
+.opros-button{
+    text-align: center;
+    
+}
+.opros-text{
+    color: white;
+}
+.opros-select{
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 15px;
+    border-radius: 5px;
+}
